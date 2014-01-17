@@ -14,13 +14,25 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="net.charlesdelmaire.qingpool.MainActivity"
+            android:name="net.charlesdelmaire.qingpool.accueilActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity 
+        	android:name="connexionActivity"
+        	android:label="Connexion">
+        </activity>
+        <activity 
+        	android:name="principaleActivity"
+        	android:label="Principale">
+        </activity>
+        <activity 
+        	android:name="nouveauPoolActivity"
+        	android:label="Nouveau pool">
         </activity>
     </application>
 
