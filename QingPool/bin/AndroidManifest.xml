@@ -34,6 +34,34 @@
         	android:name="nouveauPoolActivity"
         	android:label="Nouveau pool">
         </activity>
+        <activity 
+        	android:name="connPoolActivity"
+        	android:label="Connexion pool">
+        </activity>
+        <activity 
+        	android:name="listJoueActivity"
+        	android:label="Liste de joueur d'un participant">
+        </activity>
+        <activity 
+        	android:name="listPartiActivity"
+        	android:label="Liste participant d'un pool">
+        </activity>
+        <activity 
+        	android:name="listPoolActivity"
+        	android:label="Liste des pools d'un participant">
+        </activity>
+        <activity 
+        	android:name="listRandActivity"
+        	android:label="Liste de joueur random">
+        </activity>
+        <activity 
+        	android:name="rsltFinalActivity"
+        	android:label="Résultat final d'un pool">
+        </activity>
+        <activity 
+        	android:name="choixJoueActivity"
+        	android:label="Choix des joueurs">
+        </activity>
     </application>
 
 </manifest>

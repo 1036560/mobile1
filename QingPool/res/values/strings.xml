@@ -10,9 +10,15 @@
 	<string name="btnConnexionOk">Connexion</string>
 	<string name="btnConnexionReset">Réinitialisation</string>
 	<string name="btnStartPool">Démarrer un nouveau pool</string>
-	<string name="btnConnPool">Se connecter à un pool existant</string>
-	<string name="btnViewPool">Voir un pool existant</string>
+	<string name="btnConnPool">Se connecter à un pool existent</string>
+	<string name="btnViewPool">Voir un pool existent</string>
+	<string name="btnCreerPool">Créer le pool</string>
+	<string name="btnConnexionPool">Connexion</string>
 	
+	<string name="lblNomPool">Nom du pool</string>
+	<string name="lblMdp">Mot de passe</string>
+	<string name="lblConfMdp">Confirmation de mot de passe</string>
+	<string name="lblNbPartMax">Nombre de participants maximum</string>
 	
 	<string name="hintEmail">abc@gmail.com</string>
 	<string name="hintMdp">Mot de passe</string>

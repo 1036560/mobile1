@@ -18,6 +18,12 @@ implements OnClickListener {
 		
 		View btnClick = findViewById(R.id.btnStartPool);
 	    btnClick.setOnClickListener(this);
+	    
+	    View btnClick1 = findViewById(R.id.btnConnPool);
+	    btnClick1.setOnClickListener(this);
+	    
+	    View btnClick2 = findViewById(R.id.btnViewPool);
+	    btnClick2.setOnClickListener(this);
 	}
 
 	@Override
@@ -29,6 +35,14 @@ implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
+		
+		
+		if(v.getId() == R.id.btnConnPool){
+			//define a new Intent for the second Activity
+			Intent intent = new Intent(this,connPoolActivity.class);
+			//start the second Activity
+			this.startActivity(intent);
+		}
 		// TODO Auto-generated method stub
 		if(v.getId() == R.id.btnStartPool){
 			//define a new Intent for the second Activity
@@ -36,6 +50,16 @@ implements OnClickListener {
 			//start the second Activity
 			this.startActivity(intent);
 		}
+		
+		if(v.getId() == R.id.btnViewPool){
+			//define a new Intent for the second Activity
+			Intent intent = new Intent(this,listPoolActivity.class);
+			//start the second Activity
+			this.startActivity(intent);
+		}
+		
+		
+		
 	}
 
 	
