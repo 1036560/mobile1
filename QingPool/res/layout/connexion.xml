@@ -2,37 +2,18 @@
 <RelativeLayout android:id="@+id/RelativeLayout01" 
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
-        <EditText
-            android:id="@+id/editText1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/editText2"
-            android:layout_alignLeft="@+id/editText2"
-            android:layout_alignRight="@+id/editText2"
-            android:ems="10"
-            android:hint="@string/hintEmail"
-            android:inputType="textEmailAddress" />
-       
-    
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:ems="10"
-        android:hint="@string/hintMdp"
-        android:inputType="textPassword" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/black">
 
     <Button
         android:id="@+id/btnConnOk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignRight="@+id/editText2"
-        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/txBoxMdp"
+        android:layout_alignRight="@+id/txBoxMdp"
+        android:layout_below="@+id/txBoxMdp"
         android:layout_marginTop="20dp"
+        android:textColor="@color/white"
         android:text="@string/btnConnexionOk" />
 
     <Button
@@ -43,6 +24,64 @@
         android:layout_alignRight="@+id/btnConnOk"
         android:layout_below="@+id/btnConnOk"
         android:layout_marginTop="14dp"
+        android:textColor="@color/white"
         android:text="@string/btnConnexionReset" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txBoxCourriel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="66dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/hintEmail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txBoxMdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="@string/hintMdp"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txBoxCourriel"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/lblCourriel"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txBoxMdp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginBottom="14dp"
+        android:text="@string/lblMdp"
+        android:textColor="@color/white" />
 
 </RelativeLayout>

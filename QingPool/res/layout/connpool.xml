@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/editText1"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_marginBottom="42dp"
-        android:text="@string/lblNomPool" />
+    android:layout_height="match_parent"
+    android:background="@color/black" >
 
     <Button
         android:id="@+id/button1"
@@ -20,23 +12,17 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="44dp"
+        android:textColor="@color/white"
         android:text="@string/btnConnexionPool" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/editText2"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_marginBottom="16dp"
-        android:text="@string/lblMdp" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
+        android:background="@color/white"
         android:ems="10"
         android:inputType="textPassword" />
 
@@ -46,11 +32,33 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/textView2"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/white"
         android:layout_marginBottom="22dp"
-        android:layout_marginLeft="22dp"
         android:ems="10" >
 
         <requestFocus />
     </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="14dp"
+        android:text="@string/lblMdp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginBottom="14dp"
+        android:text="@string/lblNomPool"
+        android:textColor="@color/white" />
 
 </RelativeLayout>

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.EditText;
 
 public class connexionActivity extends Activity 
 implements OnClickListener{
@@ -17,6 +18,9 @@ implements OnClickListener{
 		
 		View btnClick = findViewById(R.id.btnConnOk);
 	    btnClick.setOnClickListener(this);
+	    
+	    View btnClick1 = findViewById(R.id.btnConnReset);
+	    btnClick1.setOnClickListener(this);
 	}
 
 	@Override
@@ -33,6 +37,16 @@ implements OnClickListener{
 			Intent intent = new Intent(this,principaleActivity.class);
 			//start the second Activity
 			this.startActivity(intent);
+		}
+		
+		if(v.getId() == R.id.btnConnReset){
+			
+			EditText txtCourriel = (EditText)findViewById(R.id.txBoxCourriel);
+			txtCourriel.setText("");
+			
+			EditText txtMdp = (EditText)findViewById(R.id.txBoxMdp);
+			txtMdp.setText("");
+			
 		}
 		
 	}
