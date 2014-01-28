@@ -17,7 +17,7 @@
 	
 	<string name="lblNomPool">Nom du pool</string>
 	<string name="lblMdp">Mot de passe</string>
-	<string name="lblCourriel">Courriel</string>
+	<string name="lblCourriel">Courriel: </string>
 	<string name="lblConfMdp">Confirmation de mot de passe</string>
 	<string name="lblNbPartMax">Nombre de participants maximum</string>
 	

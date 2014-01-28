@@ -1,87 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@+id/RelativeLayout01" 
-    android:layout_width="fill_parent" 
-    android:layout_height="fill_parent"
+
+<ScrollView 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/black">
-
-    <Button
-        android:id="@+id/btnConnOk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/txBoxMdp"
-        android:layout_alignRight="@+id/txBoxMdp"
-        android:layout_below="@+id/txBoxMdp"
-        android:layout_marginTop="20dp"
-        android:textColor="@color/white"
-        android:text="@string/btnConnexionOk" />
-
-    <Button
-        android:id="@+id/btnConnReset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnConnOk"
-        android:layout_alignRight="@+id/btnConnOk"
-        android:layout_below="@+id/btnConnOk"
-        android:layout_marginTop="14dp"
-        android:textColor="@color/white"
-        android:text="@string/btnConnexionReset" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
-        android:text="@string/app_name"
-        android:textColor="@color/white"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <EditText
-        android:id="@+id/txBoxCourriel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="66dp"
-        android:background="@color/white"
-        android:ems="10"
-        android:hint="@string/hintEmail"
-        android:inputType="textEmailAddress" />
-
-    <EditText
-        android:id="@+id/txBoxMdp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:background="@color/white"
-        android:ems="10"
-        android:hint="@string/hintMdp"
-        android:inputType="textPassword" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/txBoxCourriel"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="32dp"
-        android:layout_marginLeft="15dp"
-        android:text="@string/lblCourriel"
-        android:textColor="@color/white" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/txBoxMdp"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_marginBottom="14dp"
-        android:text="@string/lblMdp"
-        android:textColor="@color/white" />
-
-</RelativeLayout>
+    android:layout_width="fill_parent"
+    android:background="@color/black"
+	android:layout_height="fill_parent">
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/app_name"
+	        android:gravity="center_horizontal"
+	        android:textColor="@color/white"
+	        android:textSize="32sp" />
+	
+	
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/lblCourriel"
+	            android:textColor="@color/white"
+	            android:layout_marginLeft="10dip"
+	            android:layout_marginTop="15dip"  />
+	
+	        <EditText
+	            android:id="@+id/txBoxCourriel"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@color/white"
+	            android:hint="@string/hintEmail"
+	            android:inputType="textEmailAddress"
+	            android:layout_marginLeft="5dip"
+	            android:layout_marginRight="5dip"
+	            android:layout_marginBottom="15dip"  />
+	
+	
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="center"
+	            android:text="@string/lblMdp"
+	            android:textColor="@color/white"
+	            android:layout_marginLeft="10dip"  />
+	
+	        <EditText
+	            android:id="@+id/txBoxMdp"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@color/white"
+	            android:hint="@string/hintMdp"
+	            android:inputType="textPassword"
+	            android:layout_marginLeft="5dip"
+	            android:layout_marginRight="5dip"
+	            android:layout_marginBottom="30dip"/>
+	
+	    
+	
+	
+	    <Button
+	        android:id="@+id/btnConnOk"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnConnexionOk"
+	        android:textColor="@color/white"
+	        android:layout_marginBottom="5dip" />
+	
+	    <Button
+	        android:id="@+id/btnConnReset"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnConnexionReset"
+	        android:textColor="@color/white" />
+	    
+	    <com.google.android.gms.common.SignInButton
+		    android:id="@+id/sign_in_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content" />
+	
+	</LinearLayout>
+</ScrollView>
