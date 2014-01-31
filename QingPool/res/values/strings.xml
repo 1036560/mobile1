@@ -7,7 +7,7 @@
     
     
     <string name="btnConnexion">Connexion avec Gmail</string>
-	<string name="redirectionPagePrincipale">Page Principale</string>
+	<string name="redirectionPagePrincipale">Gestion des pools</string>
 	<string name="btnConnexionReset">Réinitialisation</string>
 	<string name="btnStartPool">Démarrer un nouveau pool</string>
 	<string name="btnConnPool">Se connecter à un pool existent</string>
