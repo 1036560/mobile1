@@ -31,7 +31,7 @@ implements OnClickListener{
 	public void onClick(View arg0) {
 		if(arg0.getId() == R.id.btnConnexion){
 			//define a new Intent for the second Activity
-			Intent intent = new Intent(this,connexionActivity.class);
+			Intent intent = new Intent(this,choixJoueActivity.class);
 			//start the second Activity
 			this.startActivity(intent);
 		}
