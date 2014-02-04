@@ -31,6 +31,7 @@ public class accueilActivity extends Activity implements OnClickListener {
 			// define a new Intent for the second Activity
 			Intent intent = new Intent(this, connexionActivity.class);
 			// start the second Activity
+
 			this.startActivity(intent);
 		}
 
