@@ -10,6 +10,7 @@
     tools:context=".accueilActivity" 
     android:background="@drawable/titre_background">
 
+    
     <Button
         android:id="@+id/btnConnexion"
         android:layout_width="match_parent"

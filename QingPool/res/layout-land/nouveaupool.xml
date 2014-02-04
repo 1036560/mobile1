@@ -1,90 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" 
     android:background="@drawable/background">
 
-    <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/EditText02"
-        android:layout_below="@+id/editText2"
-        android:layout_marginTop="18dp"
-        android:text="@string/lblConfMdp" />
+   <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+        
+	    <ImageView
+		        android:id="@+id/imageView1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/titre"
+		        android:contentDescription="@string/app_name" 
+		        android:layout_marginBottom="7dp"
+		        android:layout_marginTop="10dp"/>
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"       
+	        android:text="@string/lblNomPool"
+	        android:textColor="@color/black"
+	        android:gravity="center"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="7dp"
+	        android:layout_marginLeft="10dp"/>
+	    
+	    <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"        
+	        android:hint="@string/lblNomPool"
+	        android:layout_marginBottom="7dp" 
+	        android:textSize="20sp"/>
+	    
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="@string/lblMdp"
+	        android:textColor="@color/black" 
+	        android:gravity="center"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="7dp"
+	        android:layout_marginLeft="10dp"/>
+	    
+	     <EditText
+	        android:id="@+id/editText2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"         
+	        android:inputType="textPassword"
+	        android:hint="@string/lblMdp" 
+	        android:layout_marginBottom="7dp"
+	        android:textSize="20sp"/>
+	    
+	    <TextView
+	        android:id="@+id/TextView01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="@string/lblConfMdp"
+	        android:textColor="@color/black"
+	        android:gravity="center"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="7dp"
+	        android:layout_marginLeft="10dp" />
+	
+	   <EditText
+	        android:id="@+id/EditText02"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"        
+	        android:inputType="textPassword"
+	        android:hint="@string/lblConfMdp" 
+	        android:layout_marginBottom="7dp"
+	        android:textSize="20sp"/>
+	   
+	   <TextView
+	        android:id="@+id/TextView02"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"        
+	        android:text="@string/lblNbPartMax"
+	        android:textColor="@color/black"
+	        android:gravity="center"
+	        android:textSize="20sp" 
+	        android:layout_marginBottom="7dp"
+	        android:layout_marginLeft="10dp"/>
+	
+	    <EditText
+	        android:id="@+id/editText3"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"    	        
+	        android:hint="@string/lblNbPartMax1"
+	        android:layout_marginBottom="20dp"
+	        android:textSize="20sp"/>    
+	
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"                
+	        android:text="@string/btnCreerPool"
+	        android:textSize="20sp" />    
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/editText1"
-        android:layout_below="@+id/textView2"
-        android:ems="10"
-        android:inputType="textPassword" />
+		</LinearLayout>
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="21dp"
-        android:layout_marginTop="19dp"
-        android:text="@string/lblNomPool" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/editText1"
-        android:layout_marginTop="20dp"
-        android:text="@string/lblMdp" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="50dp"
-        android:text="@string/btnCreerPool" />
-
-    <TextView
-        android:id="@+id/TextView02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_centerVertical="true"
-        android:text="@string/lblNbPartMax" />
-
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/EditText02"
-        android:layout_alignRight="@+id/EditText02"
-        android:layout_below="@+id/TextView02"
-        android:layout_marginTop="29dp"
-        android:ems="10" />
-
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/textView1"
-        android:ems="10" />
-
-    <EditText
-        android:id="@+id/EditText02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/TextView02"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignRight="@+id/editText2"
-        android:ems="10"
-        android:inputType="textPassword" />
-
-</RelativeLayout>
+</ScrollView>

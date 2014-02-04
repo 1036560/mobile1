@@ -34,23 +34,23 @@
         </activity>
         <activity 
         	android:name="principaleActivity"
-        	android:label="Principale">
+        	android:label="Page principale">
         </activity>
         <activity 
         	android:name="nouveauPoolActivity"
-        	android:label="Nouveau pool">
+        	android:label="Création d'un pool">
         </activity>
         <activity 
         	android:name="connPoolActivity"
-        	android:label="Connexion pool">
+        	android:label="Connexion à un pool">
         </activity>
         <activity 
         	android:name="listJoueActivity"
-        	android:label="Liste de joueur d'un participant">
+        	android:label="Liste des joueurs d'un participant">
         </activity>
         <activity 
         	android:name="listPartiActivity"
-        	android:label="Liste participant d'un pool">
+        	android:label="Liste des participants">
         </activity>
         <activity 
         	android:name="listPoolActivity"
@@ -58,11 +58,11 @@
         </activity>
         <activity 
         	android:name="listRandActivity"
-        	android:label="Liste de joueur random">
+        	android:label="Liste de joueur aléatoire">
         </activity>
         <activity 
         	android:name="rsltFinalActivity"
-        	android:label="Résultat final d'un pool">
+        	android:label="Résultats finaux d'un pool">
         </activity>
         <activity 
         	android:name="choixJoueActivity"
