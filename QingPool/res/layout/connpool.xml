@@ -22,7 +22,6 @@
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:text="@string/lblNomPool"
-	        android:textColor="@color/black"
 	        android:gravity="center"
 	        android:layout_marginLeft="10dip"
 	        android:layout_marginTop="15dip" />
@@ -32,7 +31,6 @@
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
 	        android:inputType="text"
-	        android:textColor="@color/white"
 	        android:layout_marginLeft="5dip"
 	        android:layout_marginRight="5dip"
 	        android:layout_marginBottom="15dip" />
@@ -43,7 +41,6 @@
 	        android:layout_height="wrap_content"
 	        android:text="@string/lblMdp"
 	        android:gravity="center"
-	        android:textColor="@color/black"
 	        android:layout_marginLeft="10dip" />
     	
     	<EditText
@@ -53,23 +50,20 @@
 	        android:inputType="textPassword"
 	        android:layout_marginLeft="5dip"
 		    android:layout_marginRight="5dip"
-		    android:layout_marginBottom="30dip" 
-		    android:textColor="@color/white"/>
+		    android:layout_marginBottom="30dip"/>
 	     
         <Button
 	        android:id="@+id/button1"
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:text="@string/btnConnexionPool"
-	        android:textColor="@color/white" />
+	        android:text="@string/btnConnexionPool"/>
     
 	
 	    <Button
 	        android:id="@+id/btnConnReset"
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:text="@string/btnConnexionReset"
-	        android:textColor="@color/white" />
+	        android:text="@string/btnConnexionReset" />
 	
 	</LinearLayout>
 </ScrollView>
