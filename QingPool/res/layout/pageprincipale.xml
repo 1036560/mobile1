@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"        
         android:text="@string/btnStartPool"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="30dip"
         android:textSize="20sp" />
 
     <Button
@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"         
         android:text="@string/btnViewPool"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="30dip"
         android:textSize="20sp" />
 
     <Button
@@ -38,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"         
         android:text="@string/btnConnPool"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="30dip"
         android:textSize="20sp" />
 </LinearLayout>
 </ScrollView>

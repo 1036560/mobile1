@@ -225,31 +225,37 @@ containing a value of this type.
         public static final int ic_plusone_tall_off_client=0x7f02001d;
         public static final int titre=0x7f02001e;
         public static final int titre_background=0x7f02001f;
+        public static final int user=0x7f020020;
     }
     public static final class id {
-        public static final int EditText02=0x7f050016;
-        public static final int TextView01=0x7f050015;
-        public static final int TextView02=0x7f050017;
-        public static final int action_settings=0x7f05001c;
-        public static final int btnConnPool=0x7f05001b;
+        public static final int EditText02=0x7f050017;
+        public static final int TextView01=0x7f050016;
+        public static final int TextView02=0x7f050018;
+        public static final int action_settings=0x7f050021;
+        public static final int btnConnPool=0x7f05001c;
         public static final int btnConnReset=0x7f050012;
-        public static final int btnConnexion=0x7f050005;
+        public static final int btnConnexion=0x7f050006;
         public static final int btnPageAccueil=0x7f05000b;
-        public static final int btnPasserChoix=0x7f050006;
-        public static final int btnStartPool=0x7f050019;
-        public static final int btnViewPool=0x7f05001a;
+        public static final int btnPasserChoix=0x7f050007;
+        public static final int btnStartPool=0x7f05001a;
+        public static final int btnViewPool=0x7f05001b;
+        public static final int btnVoirJoueur=0x7f050020;
         public static final int button1=0x7f050011;
         public static final int editText1=0x7f05000e;
         public static final int editText2=0x7f050010;
-        public static final int editText3=0x7f050018;
+        public static final int editText3=0x7f050019;
         public static final int hybrid=0x7f050004;
-        public static final int imageView1=0x7f050007;
-        public static final int listParticipant=0x7f050013;
-        public static final int listPool=0x7f050014;
+        public static final int imageView1=0x7f050005;
+        public static final int imageView2=0x7f05001d;
+        public static final int listJoueur=0x7f050013;
+        public static final int listParticipant=0x7f050014;
+        public static final int listPool=0x7f050015;
+        public static final int nomPart=0x7f05001e;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
         public static final int retourPagePrincipale=0x7f05000a;
         public static final int satellite=0x7f050002;
+        public static final int scorePart=0x7f05001f;
         public static final int sign_in_button=0x7f050008;
         public static final int sign_in_status=0x7f05000c;
         public static final int sign_out_button=0x7f050009;
@@ -272,10 +278,12 @@ containing a value of this type.
         public static final int listrand=0x7f030008;
         public static final int nouveaupool=0x7f030009;
         public static final int pageprincipale=0x7f03000a;
-        public static final int rsltfinal=0x7f03000b;
+        public static final int profilpart=0x7f03000b;
+        public static final int rsltfinal=0x7f03000c;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;
+        public static final int profilpart=0x7f0a0001;
     }
     public static final class string {
         public static final int action_settings=0x7f06001b;
@@ -312,6 +320,7 @@ containing a value of this type.
         public static final int btnPasserChoix=0x7f060025;
         public static final int btnStartPool=0x7f06001f;
         public static final int btnViewPool=0x7f060021;
+        public static final int btnVoirJoueur=0x7f060026;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -383,28 +392,33 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f060013;
-        public static final int default_status=0x7f06002e;
-        public static final int hello_world=0x7f06003a;
-        public static final int hintEmail=0x7f06002c;
-        public static final int hintMdp=0x7f06002d;
-        public static final int lblConfMdp=0x7f060029;
-        public static final int lblCourriel=0x7f060028;
-        public static final int lblMdp=0x7f060027;
-        public static final int lblNbPartMax=0x7f06002a;
-        public static final int lblNbPartMax1=0x7f06002b;
-        public static final int lblNomPool=0x7f060026;
-        public static final int loading_status=0x7f060037;
-        public static final int plus_generic_error=0x7f060033;
-        public static final int progress_message=0x7f060034;
+        public static final int default_status=0x7f060030;
+        public static final int hello_world=0x7f06003f;
+        public static final int hintEmail=0x7f06002d;
+        public static final int hintMdp=0x7f06002e;
+        public static final int lblConfMdp=0x7f06002a;
+        public static final int lblCourriel=0x7f060029;
+        public static final int lblMdp=0x7f060028;
+        public static final int lblNbPartMax=0x7f06002b;
+        public static final int lblNbPartMax1=0x7f06002c;
+        public static final int lblNomPool=0x7f060027;
+        public static final int listJoueur=0x7f06002f;
+        public static final int loading_status=0x7f060039;
+        public static final int nomPart=0x7f06003d;
+        public static final int plus_generic_error=0x7f060035;
+        public static final int progress_message=0x7f060036;
         public static final int redirectionPagePrincipale=0x7f06001d;
-        public static final int revoke_access_button_name=0x7f060030;
-        public static final int revoke_access_error_status=0x7f060036;
-        public static final int revoke_access_status=0x7f060035;
-        public static final int sign_out_button_name=0x7f06002f;
-        public static final int signed_in_status=0x7f060032;
-        public static final int signed_out_status=0x7f060038;
-        public static final int signing_in_status=0x7f060031;
-        public static final int unknown_person=0x7f060039;
+        public static final int revoke_access_button_name=0x7f060032;
+        public static final int revoke_access_error_status=0x7f060038;
+        public static final int revoke_access_status=0x7f060037;
+        public static final int scorePart=0x7f06003e;
+        public static final int sign_out_button_name=0x7f060031;
+        public static final int signed_in_status=0x7f060034;
+        public static final int signed_out_status=0x7f06003a;
+        public static final int signing_in_status=0x7f060033;
+        public static final int sil=0x7f06003c;
+        public static final int title_activity_profilpart=0x7f060040;
+        public static final int unknown_person=0x7f06003b;
     }
     public static final class style {
         /** 
