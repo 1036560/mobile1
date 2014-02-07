@@ -74,6 +74,10 @@
             android:name="net.charlesdelmaire.qingpool.ProfilpartActivity"
             android:label="Profil du participant" >
         </activity>
+        <activity
+            android:name="net.charlesdelmaire.qingpool.EnvoieCourrielActivity"
+            android:label="Invitations" >
+        </activity>
     </application>
 
 </manifest>

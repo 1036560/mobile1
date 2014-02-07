@@ -7,19 +7,18 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 
-public class ProfilpartActivity extends Activity 
+public class ProfiljoueActivity extends Activity 
 implements OnClickListener {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.profilpart);
+		setContentView(R.layout.profiljoue);
 		
-		View btnClick = findViewById(R.id.btnVoirJoueur);
+		View btnClick = findViewById(R.id.btnRetPart);
 	    btnClick.setOnClickListener(this);
 	    
-	    View btnClick1 = findViewById(R.id.btnInviter);
-	    btnClick1.setOnClickListener(this);
+	    
 	}
 
 	@Override
@@ -30,16 +29,12 @@ implements OnClickListener {
 	}
 	
 	
-	public void onClick(View arg0) {
-		if (arg0.getId() == R.id.btnVoirJoueur) {
-			Intent intent = new Intent(this, listJoueActivity.class);			
+	public void onClick(View v) {
+		if(v.getId() == R.id.btnRetPart){
+			//define a new Intent for the second Activity
+			Intent intent = new Intent(this,ProfilpartActivity.class);
+			//start the second Activity
 			this.startActivity(intent);
-		}
-		
-		if (arg0.getId() == R.id.btnInviter) {
-			Intent intent = new Intent(this, EnvoieCourrielActivity.class);
-			this.startActivity(intent);
-			
 		}
 
 	}
