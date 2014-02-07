@@ -22,7 +22,9 @@
     <string name="lblNbPartMax1">Participants max</string>
     <string name="hintEmail">abc@gmail.com</string>
     <string name="hintMdp">Mot de passe</string>
-    <string name="listJoueur">Liste des joueurs (à complétée)</string>
+    <string name="listJoueur">Liste des joueurs</string>
+    <string name="btnEnvoieCou">Inviter d\'autres participants</string>
+    <string name="btnRetPart">Retourner au participant</string>
 
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
@@ -44,5 +46,7 @@
     <string name="scorePart">Score: </string>
     <string name="hello_world">Hello World!</string>
     <string name="title_activity_profilpart">Profilpart</string>
+    <string name="title_activity_evoie_courriel">EvoieCourrielActivity</string>
+    <string name="equipe">Équipe: </string>
 
 </resources>
