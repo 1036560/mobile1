@@ -25,7 +25,6 @@
 	        android:layout_height="wrap_content"
 	        android:text="@string/lblNomPool"
 	        android:gravity="center"
-	        android:textColor="@color/black"
 	        android:layout_marginLeft="10dip"
 	        android:layout_marginTop="15dip" />
 	     
@@ -33,7 +32,6 @@
 	        android:id="@+id/editText1"
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:background="@color/white"
 	        android:inputType="text"
 	        android:layout_marginLeft="5dip"
 	        android:layout_marginRight="5dip"
@@ -45,14 +43,12 @@
 	        android:layout_height="wrap_content"
 	        android:text="@string/lblMdp"
 	        android:gravity="center"
-	        android:textColor="@color/black"
 	        android:layout_marginLeft="10dip" />
     	
     	<EditText
 	        android:id="@+id/editText2"
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:background="@color/white"
 	        android:inputType="textPassword"
 	        android:layout_marginLeft="5dip"
 		    android:layout_marginRight="5dip"
@@ -68,7 +64,6 @@
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
 		        android:layout_weight="1"
-		        android:textColor="@color/white"
 		        android:text="@string/btnConnexionPool" />
 	    
 		
@@ -77,8 +72,7 @@
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
 		        android:layout_weight="1"
-		        android:text="@string/btnConnexionReset"
-		        android:textColor="@color/white" />
+		        android:text="@string/btnConnexionReset" />
 		</LinearLayout>
 	</LinearLayout>
 </ScrollView>

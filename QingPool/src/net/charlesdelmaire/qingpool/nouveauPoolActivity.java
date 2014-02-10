@@ -1,17 +1,21 @@
 package net.charlesdelmaire.qingpool;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
 
-public class nouveauPoolActivity extends Activity {
+public class nouveauPoolActivity extends Activity implements OnClickListener {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.nouveaupool);
-		
-		
+		View btnClick = findViewById(R.id.btnCreerPool);
+		btnClick.setOnClickListener(this);
+
 	}
 
 	@Override
@@ -21,5 +25,16 @@ public class nouveauPoolActivity extends Activity {
 		return true;
 	}
 
-	
+	@Override
+	public void onClick(View arg0) {
+		if (arg0.getId() == R.id.btnCreerPool) {
+			// define a new Intent for the second Activity
+			Intent intent = new Intent(this, EnvoieCourrielActivity.class);
+			// start the second Activity
+
+			this.startActivity(intent);
+		}
+
+	}
+
 }
