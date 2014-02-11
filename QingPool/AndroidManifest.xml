@@ -78,6 +78,7 @@
             android:name="net.charlesdelmaire.qingpool.EnvoieCourrielActivity"
             android:label="Invitations" >
         </activity>
+        
     </application>
 
 </manifest>

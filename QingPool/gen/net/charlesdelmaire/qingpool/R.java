@@ -231,43 +231,46 @@ containing a value of this type.
         public static final int EditText02=0x7f050019;
         public static final int TextView01=0x7f050018;
         public static final int TextView02=0x7f05001a;
-        public static final int action_settings=0x7f050027;
+        public static final int action_settings=0x7f05002a;
         public static final int btnConnPool=0x7f05001f;
         public static final int btnConnReset=0x7f050012;
         public static final int btnConnexion=0x7f050006;
         public static final int btnCreerPool=0x7f05001c;
         public static final int btnEnvoieCou=0x7f050013;
-        public static final int btnInviter=0x7f050026;
+        public static final int btnInviter=0x7f050027;
         public static final int btnPageAccueil=0x7f05000b;
         public static final int btnPasserChoix=0x7f050007;
         public static final int btnRetPart=0x7f050015;
         public static final int btnStartPool=0x7f05001d;
         public static final int btnViewPool=0x7f05001e;
-        public static final int btnVoirJoueur=0x7f050025;
+        public static final int btnVoirJoueur=0x7f050026;
         public static final int button1=0x7f050011;
         public static final int editText1=0x7f05000e;
         public static final int editText2=0x7f050010;
         public static final int editText3=0x7f05001b;
-        public static final int equipe=0x7f050023;
+        public static final int equipe=0x7f050024;
         public static final int hybrid=0x7f050004;
         public static final int imageView1=0x7f050005;
-        public static final int imageView2=0x7f050020;
+        public static final int imageView2=0x7f050021;
+        public static final int img_selection=0x7f050028;
+        public static final int lbl_content=0x7f050029;
         public static final int listJoue=0x7f050014;
         public static final int listParticipant=0x7f050016;
         public static final int listPool=0x7f050017;
-        public static final int nomPart=0x7f050021;
+        public static final int nomPart=0x7f050022;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
         public static final int retourPagePrincipale=0x7f05000a;
         public static final int satellite=0x7f050002;
-        public static final int score=0x7f050022;
-        public static final int scorePart=0x7f050024;
+        public static final int score=0x7f050023;
+        public static final int scorePart=0x7f050025;
         public static final int sign_in_button=0x7f050008;
         public static final int sign_in_status=0x7f05000c;
         public static final int sign_out_button=0x7f050009;
         public static final int terrain=0x7f050003;
         public static final int textView1=0x7f05000d;
         public static final int textView2=0x7f05000f;
+        public static final int viewjoueur=0x7f050020;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f070000;
@@ -285,14 +288,17 @@ containing a value of this type.
         public static final int listrand=0x7f030009;
         public static final int nouveaupool=0x7f03000a;
         public static final int pageprincipale=0x7f03000b;
-        public static final int profiljoue=0x7f03000c;
-        public static final int profilpart=0x7f03000d;
-        public static final int rsltfinal=0x7f03000e;
+        public static final int popupjoueur=0x7f03000c;
+        public static final int profiljoue=0x7f03000d;
+        public static final int profilpart=0x7f03000e;
+        public static final int row=0x7f03000f;
+        public static final int rsltfinal=0x7f030010;
     }
     public static final class menu {
         public static final int evoie_courriel=0x7f0a0000;
         public static final int main=0x7f0a0001;
-        public static final int profilpart=0x7f0a0002;
+        public static final int popup=0x7f0a0002;
+        public static final int profilpart=0x7f0a0003;
     }
     public static final class string {
         public static final int action_settings=0x7f06001b;
@@ -405,9 +411,11 @@ containing a value of this type.
         public static final int common_signin_button_text_long=0x7f060013;
         public static final int default_status=0x7f060032;
         public static final int equipe=0x7f060044;
+        public static final int fermer=0x7f060045;
         public static final int hello_world=0x7f060041;
         public static final int hintEmail=0x7f06002d;
         public static final int hintMdp=0x7f06002e;
+        public static final int img_choix_description=0x7f060047;
         public static final int lblConfMdp=0x7f06002a;
         public static final int lblCourriel=0x7f060029;
         public static final int lblMdp=0x7f060028;
@@ -424,6 +432,7 @@ containing a value of this type.
         public static final int revoke_access_error_status=0x7f06003a;
         public static final int revoke_access_status=0x7f060039;
         public static final int scorePart=0x7f060040;
+        public static final int selection=0x7f060046;
         public static final int sign_out_button_name=0x7f060033;
         public static final int signed_in_status=0x7f060036;
         public static final int signed_out_status=0x7f06003c;

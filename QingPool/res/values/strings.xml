@@ -48,5 +48,8 @@
     <string name="title_activity_profilpart">Profilpart</string>
     <string name="title_activity_evoie_courriel">EvoieCourrielActivity</string>
     <string name="equipe">Équipe: </string>
+    <string name="fermer">Fermer</string>    
+    <string name="selection">Sélectionner un joueur</string>
+    <string name="img_choix_description">Choix</string>
 
 </resources>
