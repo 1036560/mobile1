@@ -60,7 +60,7 @@ public class listPartiActivity extends Activity {
 
 		// We know that each row in the adapter is a Map
 		HashMap map = (HashMap) simpleAdpt.getItem(aInfo.position);
-		menu.setHeaderTitle("Options for " + map.get("nomPool"));
+		menu.setHeaderTitle("Options for " + map.get("nomPart"));
 		menu.add(1, 1, 1, "Details");
 		menu.add(1, 2, 2, "Delete");
 	}
