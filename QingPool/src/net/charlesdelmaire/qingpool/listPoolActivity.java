@@ -61,14 +61,15 @@ public class listPoolActivity extends Activity {
 
 		// We know that each row in the adapter is a Map
 		HashMap map = (HashMap) simpleAdpt.getItem(aInfo.position);
-		menu.setHeaderTitle("Options for " + map.get("nomPool"));
-		menu.add(1, 1, 1, "Details");
-		menu.add(1, 2, 2, "Delete");
+		menu.setHeaderTitle("Les Options pour le pool: " + map.get("nomPool"));
+		menu.add(1, 1, 1, "Liste de participant");
+		menu.add(1, 2, 2, "Quitter un pool");
 	}
 
 	public boolean onContextItemSelected(MenuItem item) {
 		Intent intent = new Intent(this, listPartiActivity.class);
 		// start the second Activity
+
 		this.startActivity(intent);
 		return true;
 	}

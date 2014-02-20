@@ -55,6 +55,7 @@
                 android:layout_weight="1"               
                 android:text="@string/redirectionPagePrincipale"
                 android:textColor="@color/black" 
+                android:visibility="gone"
                 android:textSize="20sp" />
 
             <Button

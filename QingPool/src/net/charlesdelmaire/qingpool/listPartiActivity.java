@@ -10,7 +10,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.ListView;
@@ -60,16 +59,9 @@ public class listPartiActivity extends Activity {
 
 		// We know that each row in the adapter is a Map
 		HashMap map = (HashMap) simpleAdpt.getItem(aInfo.position);
-		menu.setHeaderTitle("Options for " + map.get("nomPart"));
-		menu.add(1, 1, 1, "Details");
-		menu.add(1, 2, 2, "Delete");
-	}
-
-	public boolean onContextItemSelected(MenuItem item) {
 		Intent intent = new Intent(this, ProfilpartActivity.class);
 		// start the second Activity
 		this.startActivity(intent);
-		return true;
 	}
 
 }
